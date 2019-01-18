@@ -1,0 +1,5 @@
+<configs>
+  <append xpath="/windows/window[@name='windowToolbelt']/rect">
+    <label depth="5" width="603" pos="0,18" font_size="20" justify="center" text="{playerlevel}" effect="outline" controller="PlayerStatsWindow" />
+  </append>
+</configs>

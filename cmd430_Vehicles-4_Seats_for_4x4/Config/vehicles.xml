@@ -1,0 +1,18 @@
+<configs>
+  <append xpath="/vehicles/vehicle[@name='vehicle4x4Truck']">
+    <property class="seat2">
+      <property name="position" value="-0.35, 0.7, -2.45"/> <!-- left/right, up/down, front/back -->
+      <property name="rotation" value="-32, 180, 0"/> <!-- tilt forward/back, turn left/right, tilt side/side -->
+      <property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
+    </property>
+    <property class="seat3">
+      <property name="position" value="0.35, 0.7, -2.45"/>
+      <property name="rotation" value="-32, 180, 0"/>
+      <property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
+    </property>
+  </append>
+  <remove xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='engine']/property[@name='fuelKmPerL']"/>
+  <append xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='engine']">
+    <property name="fuelKmPerL" value="3"/>
+  </append>
+</configs>

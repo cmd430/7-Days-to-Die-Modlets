@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="cmd430_HUD-Toolbelt_Shows_Level" />
+    <Description value="Add level number to level bar" />
+    <Author value="cmd430" />
+    <Version value="1.0" />
+    <Website value="" />
+  </ModInfo>
+</xml>

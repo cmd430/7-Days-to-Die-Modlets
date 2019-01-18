@@ -1,0 +1,5 @@
+<configs>
+  <insertBefore xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']">
+    <window name="HUDBuffDurations" anchor="LeftBottom"/>
+  </insertBefore>
+</configs>

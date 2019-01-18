@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="cmd430_HUD-Stamina_on_Party_List" />
+    <Description value="Add stamina bar to party members" />
+    <Author value="cmd430" />
+    <Version value="1.0" />
+    <Website value="" />
+  </ModInfo>
+</xml>

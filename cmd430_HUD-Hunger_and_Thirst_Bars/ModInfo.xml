@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="cmd430_HUD-Hunger_and_Thirst_Bars" />
+    <Description value="Adds Hunger and Thirst to left hud bars and removes stealth (use with compass to have stealth value on HUD)" />
+    <Author value="cmd430" />
+    <Version value="1.0" />
+    <Website value="" />
+  </ModInfo>
+</xml>

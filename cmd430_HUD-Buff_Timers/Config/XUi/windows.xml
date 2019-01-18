@@ -1,0 +1,76 @@
+<configs>
+  <remove xpath="/windows/window[@name='HUDLeftStatBars']/rect[@controller='BuffPopoutList']" />
+  <append xpath="/windows">
+    <window name="HUDBuffDurations" pos="9,452" side="right" size="162,390" controller="ActiveBuffWindow" >
+      <button name="pageDown" pos="99999,99999" width="1" height="1" />
+      <label name="pageNumber" pos="99999,99999" width="1" height="1" />
+      <button name="pageUp" pos="99999,99999" width="1" height="1" />
+      <rect name="buffs" controller="ActiveBuffList" pos="63, 0">
+        <panel pos="0,-315" width="162" height="43" controller="ActiveBuffEntry" disableautobackground="true" >
+          <rect width="162" height="43" pos="0,0" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+            <sprite name="Background" color="[transparent]" />
+            <sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" size="32,32" pos="-58,3"/>
+            <label depth="2" pos="-16,6" width="110" height="22" color="[white]" text="{buffname|once}" font_size="22" pivot="topleft" effect="outline" />
+            <label depth="2" pos="-16,-10" width="110" height="22" color="[beige]" text="{buffdisplayinfo}" font_size="22" pivot="topleft" effect="outline" />
+          </rect>
+        </panel>
+        <panel pos="0,-270" width="162" height="43" controller="ActiveBuffEntry" disableautobackground="true" >
+          <rect width="162" height="43" pos="0,0" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+            <sprite name="Background" color="[transparent]" />
+            <sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" size="32,32" pos="-58,3"/>
+            <label depth="2" pos="-16,6" width="110" height="22" color="[white]" text="{buffname|once}" font_size="22" pivot="topleft" effect="outline" />
+            <label depth="2" pos="-16,-10" width="110" height="22" color="[beige]" text="{buffdisplayinfo}" font_size="22" pivot="topleft" effect="outline" />
+          </rect>
+        </panel>
+        <panel pos="0,-225" width="162" height="43" controller="ActiveBuffEntry" disableautobackground="true" >
+          <rect width="162" height="43" pos="0,0" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+            <sprite name="Background" color="[transparent]" />
+            <sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" size="32,32" pos="-58,3"/>
+            <label depth="2" pos="-16,6" width="110" height="22" color="[white]" text="{buffname|once}" font_size="22" pivot="topleft" effect="outline" />
+            <label depth="2" pos="-16,-10" width="110" height="22" color="[beige]" text="{buffdisplayinfo}" font_size="22" pivot="topleft" effect="outline" />
+          </rect>
+        </panel>
+        <panel pos="0,-180" width="162" height="43" controller="ActiveBuffEntry" disableautobackground="true" >
+          <rect width="162" height="43" pos="0,0" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+            <sprite name="Background" color="[transparent]" />
+            <sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" size="32,32" pos="-58,3"/>
+            <label depth="2" pos="-16,6" width="110" height="22" color="[white]" text="{buffname|once}" font_size="22" pivot="topleft" effect="outline" />
+            <label depth="2" pos="-16,-10" width="110" height="22" color="[beige]" text="{buffdisplayinfo}" font_size="22" pivot="topleft" effect="outline" />
+          </rect>
+        </panel>
+        <panel pos="0,-135" width="162" height="43" controller="ActiveBuffEntry" disableautobackground="true" >
+          <rect width="162" height="43" pos="0,0" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+            <sprite name="Background" color="[transparent]" />
+            <sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" size="32,32" pos="-58,3"/>
+            <label depth="2" pos="-16,6" width="110" height="22" color="[white]" text="{buffname|once}" font_size="22" pivot="topleft" effect="outline" />
+            <label depth="2" pos="-16,-10" width="110" height="22" color="[beige]" text="{buffdisplayinfo}" font_size="22" pivot="topleft" effect="outline" />
+          </rect>
+        </panel>
+        <panel pos="0,-90" width="162" height="43" controller="ActiveBuffEntry" disableautobackground="true" >
+          <rect width="162" height="43" pos="0,0" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+            <sprite name="Background" color="[transparent]" />
+            <sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" size="32,32" pos="-58,3"/>
+            <label depth="2" pos="-16,6" width="110" height="22" color="[white]" text="{buffname|once}" font_size="22" pivot="topleft" effect="outline" />
+            <label depth="2" pos="-16,-10" width="110" height="22" color="[beige]" text="{buffdisplayinfo}" font_size="22" pivot="topleft" effect="outline" />
+          </rect>
+        </panel>
+        <panel pos="0,-45" width="162" height="43" controller="ActiveBuffEntry" disableautobackground="true" >
+          <rect width="162" height="43" pos="0,0" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+            <sprite name="Background" color="[transparent]" />
+            <sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" size="32,32" pos="-58,3"/>
+            <label depth="2" pos="-16,6" width="110" height="22" color="[white]" text="{buffname|once}" font_size="22" pivot="topleft" effect="outline" />
+            <label depth="2" pos="-16,-10" width="110" height="22" color="[beige]" text="{buffdisplayinfo}" font_size="22" pivot="topleft" effect="outline" />
+          </rect>
+        </panel>
+        <panel pos="0,0" width="162" height="43" controller="ActiveBuffEntry" disableautobackground="true" >
+          <rect width="162" height="43" pos="0,0" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+            <sprite name="Background" color="[transparent]" />
+            <sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" size="32,32" pos="-58,3"/>
+            <label depth="2" pos="-16,6" width="110" height="22" color="[white]" text="{buffname|once}" font_size="22" pivot="topleft" effect="outline" />
+            <label depth="2" pos="-16,-10" width="110" height="22" color="[beige]" text="{buffdisplayinfo}" font_size="22" pivot="topleft" effect="outline" />
+          </rect>
+        </panel>
+      </rect>
+    </window>
+  </append>
+</configs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="cmd430_HUD-Compass_More_Info" />
+    <Description value="Adds more info to the compass" />
+    <Author value="cmd430" />
+    <Version value="1.0" />
+    <Website value="" />
+  </ModInfo>
+</xml>

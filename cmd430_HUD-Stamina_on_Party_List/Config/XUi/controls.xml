@@ -1,0 +1,22 @@
+<configs>
+  <remove xpath="/controls/party_entry" />
+  <append xpath="/controls">
+    <party_entry>
+      <rect width="168" height="37" controller="PartyEntry" visible="{partyvisible}">
+        <sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
+        <sprite depth="2" name="background" color="0,0,0,140" height="37" type="sliced" />
+        <filledsprite depth="3" name="BarHealthModifiedMax" color="110,110,110,128" height="34" type="filled" fill="{healthmodifiedmax}" />
+        <filledsprite depth="3" name="BarStaminaModifiedMax" color="110,110,110,128" height="3" pos="0, -34" type="filled" fill="{staminamodifiedmax}" />
+        <filledsprite depth="5"  name="BarHealth" color="255,0,0,128" width="167" height="34" type="filled" fill="{healthfill}" />
+        <filledsprite depth="5"  name="BarStamina" color="0,54,255,128" width="167" height="3" pos="0, -34" type="filled" fill="{staminafill}" />
+        <sprite depth="1" name="border" color="0,0,0,255" width="168" height="37" type="sliced" fillcenter="false"/>
+        <filledsprite depth="8" name="BarHealthModifiedMax" color="0,0,0,255" width="168" height="34" fillcenter="false" type="filled" fill="{healthmodifiedmax}" />
+        <filledsprite depth="3" name="BarStaminaModifiedMax" color="0,0,0,255" width="168" height="3" pos="0, -34" fillcenter="false" type="filled" fill="{staminamodifiedmax}" />
+        <label depth="6" name="TextContent" pos="6, -6" font_size="26" color="[white]" justify="left" pivot="topleft" text="{name}" height="30" width="124"/>
+        <label depth="6" name="TextContent" pos="200,-6" font_size="26" color="{distancecolor}" pivot="topleft" text="{distance}" height="30" effect="outline"/>
+        <sprite depth="8" name="leader" style="icon30px" pos="135,-3" sprite="{icon}" visible="{showicon}" />		
+        <sprite depth="8" name="arrowContent" style="icon22px" pos="184,-18" sprite="ui_game_symbol_map_player_arrow" visible="{showarrow}" pivot="center" color="{arrowcolor}" />		
+      </rect>
+    </party_entry>
+  </append>
+</configs>
