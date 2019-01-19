@@ -2,30 +2,33 @@
   <remove xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud'][@side='right']/rect[@stat_type='Stealth']"/>
   <remove xpath="/windows/window[@name='windowCompass']/sprite[@sprite='']"/>
   <append xpath="/windows/window[@name='windowCompass']">
-    <sprite pos="-110,-20" sprite="" color="255,255,255,255" globalopacitymod="1.8">
-      <label depth="2" width="300" height="30" text="{daytitle}: {day|always}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="right"/>
-    </sprite>
-    <sprite pos="590,-20" sprite="" color="255,255,255,255" globalopacitymod="1.8">
-      <label depth="2" width="300" height="30" text="{timetitle}: {time|always}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="left"/>
-    </sprite>
-    <rect width="300" height="30" pos="40,-50">
-      <rect width="50" height="30" pos="50,0" controller="PlayerStatsWindow">
-        <sprite depth="2" name="Icon" sprite="ui_game_symbol_temperature" size="22,22" color="[white]" />
-        <label depth="2" name="TextContent" pos="22, 0" font_size="22" color="[white]" justify="center" pivot="topleft" text="{playercoretemp}" height="30" effect="outline"/>
+    <sprite style="compass.window.compass.background" width="468" height="24" pos="2,-49" />
+    <grid width="480" height="30" pos="0,-50" rows="1" cols="6" cell_width="80" cell_height="30">
+      <rect>
+        <sprite depth="2" name="Icon" sprite="ui_game_symbol_hot" size="22,22" pos="10, 0" color="[iconColor]" />
+        <label depth="2" name="TextContent" pos="55, -10" font_size="22" color="[beige]" justify="center" pivot="center" text="{day}" height="30" effect="outline"/>
       </rect>
-      <rect width="50" height="30" pos="132,0" controller="MapStats">
-        <sprite depth="2" name="Icon" sprite="ui_game_symbol_climb" size="22,22" color="[white]" />
-        <label depth="2" name="TextContent" pos="22, 0" font_size="22" color="[white]" justify="center" pivot="topleft" text="{mapelevation}[-] M" height="30" effect="outline"/>
+      <rect>
+        <sprite depth="2" name="Icon" sprite="ui_game_symbol_clock" size="22,22" color="[iconColor]" />
+        <label depth="2" name="TextContent" pos="50, -10" font_size="22" color="[beige]" justify="center" pivot="center" text="{time}" height="30" effect="outline"/>
       </rect>
-      <rect width="50" height="30" pos="214,0" controller="MapStats">
-        <sprite depth="2" name="Icon" sprite="ui_game_symbol_wind" size="22,22" color="[white]" />
-        <label depth="2" name="TextContent" pos="22, 0" font_size="22" color="[white]" justify="center" pivot="topleft" text="{mapwind}[-] MPH" height="30" effect="outline"/>
+      <rect controller="PlayerStatsWindow">
+        <sprite depth="2" name="Icon" sprite="ui_game_symbol_temperature" size="22,22" color="[iconColor]" />
+        <label depth="2" name="TextContent" pos="50, -10" font_size="22" color="[beige]" justify="center" pivot="center" text="{playercoretemp}" height="30" effect="outline"/>
       </rect>
-      <rect width="50" height="30" pos="296,0" controller="HUDStatBar" stat_type="Stealth" visible="true">
+      <rect controller="MapStats">
+        <sprite depth="2" name="Icon" sprite="ui_game_symbol_climb" size="22,22" color="[iconColor]" />
+        <label depth="2" name="TextContent" pos="50, -10" font_size="22" color="[beige]" justify="center" pivot="center" text="{mapelevation} M" height="30" effect="outline"/>
+      </rect>
+      <rect controller="MapStats">
+        <sprite depth="2" name="Icon" sprite="ui_game_symbol_wind" size="22,22" color="[iconColor]" />
+        <label depth="2" name="TextContent" pos="50, -10" font_size="22" color="[beige]" justify="center" pivot="center" text="{mapwind} MPH" height="30" effect="outline"/>
+      </rect>
+      <rect controller="HUDStatBar" stat_type="Stealth" visible="true">
         <filledsprite depth="1" name="BarContent" color="0, 0, 0, 0" type="filled" fill="0" />
-        <sprite depth="2" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" color="[white]" size="22,22" foregroundlayer="true"/>
-        <label depth="3" name="TextContent" font_size="22" color="[white]" justify="center" pos="14, 0" pivot="topleft" text="{statcurrent}" effect="outline" height="30"/>
+        <sprite depth="2" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" color="[iconColor]" size="22,22" pos="10, 0" foregroundlayer="true"/>
+        <label depth="3" name="TextContent" pos="50, -10" font_size="22" color="[beige]" justify="center" pivot="center" text="{statcurrent}" effect="outline" height="30"/>
       </rect>
-    </rect>
+    </grid>
   </append>
 </configs>
