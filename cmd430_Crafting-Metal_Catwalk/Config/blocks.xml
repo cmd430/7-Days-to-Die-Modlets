@@ -1,0 +1,17 @@
+<configs>
+  <remove xpath="/blocks/block[@name='woodCatwalk']/property[@class='UpgradeBlock']/property[@name='ItemCount']" />
+  <remove xpath="/blocks/block[@name='woodCatwalk']/property[@class='UpgradeBlock']/property[@name='Item']" />
+  <append xpath="/blocks/block[@name='woodCatwalk']/property[@class='UpgradeBlock']">
+    <property name="ItemCount" value="50"/>
+    <property name="Item" value="resourceScrapIron"/>
+  </append>
+  <remove xpath="/blocks/block[@name='metalCatwalk']/property[@class='RepairItems']/property[@name='resourceForgedIron']" />
+  <append xpath="/blocks/block[@name='metalCatwalk']/property[@class='RepairItems']">
+    <property name="resourceScrapIron" value="50"/> 
+  </append>
+  <append xpath="/blocks/block[@name='metalRailing']">
+    <property class="RepairItems">
+      <property name="resourceScrapIron" value="50"/>
+    </property>
+  </append>
+</configs>

@@ -1,0 +1,31 @@
+<configs>
+  <remove xpath="/recipes/recipe[@name='metalRailing']" />
+  <append xpath="/recipes">
+    <recipe name="metalCatwalk" count="1" craft_area="forge">
+      <ingredient name="resourceScrapIron" count="50"/>
+    </recipe>
+    <recipe name="metalCatwalkRailing1" count="1" craft_area="forge">
+      <ingredient name="resourceScrapIron" count="50"/>
+    </recipe>
+    <recipe name="metalCatwalkRailing2" count="1" craft_area="forge">
+      <ingredient name="resourceScrapIron" count="50"/>
+    </recipe>
+    <recipe name="metalCatwalkRailingCNR" count="1" craft_area="forge">
+      <ingredient name="resourceScrapIron" count="50"/>
+    </recipe>
+    <recipe name="metalCatwalkWedgeRailing" count="1" craft_area="forge">
+      <ingredient name="resourceScrapIron" count="50"/>
+    </recipe>
+    <recipe name="metalRailing" count="1" craft_area="forge">
+      <ingredient name="resourceScrapIron" count="20"/>
+    </recipe>
+    <recipe name="metalStairsBoard" count="1" craft_area="forge">
+      <ingredient name="resourceScrapIron" count="50"/>
+    </recipe>
+    <recipe name="metalStairsBoardRailing" count="1" craft_area="forge">
+      <ingredient name="resourceScrapIron" count="50"/>
+    </recipe>
+  </append>
+</configs>
+
+
