@@ -1,5 +1,5 @@
 <configs>
-  <remove xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='velocityMax']"/>
+  <remove xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']"/>
   <append xpath="/vehicles/vehicle[@name='vehicle4x4Truck']">
     <property name="velocityMax" value="14, 18"/>
     <property class="seat2">
