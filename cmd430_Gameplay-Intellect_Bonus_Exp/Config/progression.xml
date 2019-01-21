@@ -1,0 +1,7 @@
+<configs>
+  <append xpath="/progression/attributes/attribute[@name='attIntellect']/effect_group">
+    <passive_effect name="PlayerExpGain" operation="perc_add" value="0.0,0.40" level="1,9"/>
+    <passive_effect name="PlayerExpGain" operation="perc_add" value="0.5" level="10"/>
+    <passive_effect name="PlayerExpGain" operation="perc_add" value="0.52,0.70" level="11,20"/>
+  </append>
+</configs>
