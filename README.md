@@ -12,6 +12,7 @@
     ├───cmd430_Gameplay-Better_Zombie_Loot
     ├───cmd430_Gameplay-Bigger_Ammo_Stacks
     ├───cmd430_Gameplay-Intellect_Bonus_Exp
+    ├───cmd430_Gameplay-Pickup_Spike_Traps
     ├───cmd430_HUD-Buff_Timers
     ├───cmd430_HUD-Compass_More_Info
     ├───cmd430_HUD-Fixed_Right_HUD_Bars
