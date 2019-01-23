@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="cmd430_HUD-Switchable_Bar_Text" />
+    <Description value="Click the Icon for HUD Bar to change the Display" />
+    <Author value="cmd430" />
+    <Version value="1.0" />
+    <Website value="" />
+  </ModInfo>
+</xml>
