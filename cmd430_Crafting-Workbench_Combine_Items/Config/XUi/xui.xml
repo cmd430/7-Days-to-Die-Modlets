@@ -1,5 +1,0 @@
-<configs>
-  <append xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']">
-    <window name="windowCombine" /> 
-  </append>
-</configs>
