@@ -2,7 +2,7 @@
   <remove xpath="/controls/party_entry" />
   <append xpath="/controls">
     <party_entry>
-      <rect width="168" height="37" controller="PartyEntry" >
+      <rect width="168" height="37" controller="PartyEntry" visible="{partyvisible}">
         <sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
         <sprite depth="2" name="background" color="0,0,0,140" height="37" type="sliced" />
         <filledsprite depth="3" name="BarHealthModifiedMax" color="110,110,110,128" height="34" type="filled" fill="{healthmodifiedmax}" />
