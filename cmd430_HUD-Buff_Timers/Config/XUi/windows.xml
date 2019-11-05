@@ -1,7 +1,7 @@
 <configs>
   <set xpath="/windows/window[@name='HUDLeftStatBars']/rect[@controller='BuffPopoutList']/@pos">9999,9999</set>
   <append xpath="/windows/window[@name='HUDLeftStatBars']">
-    <rect width="162" height="43" pos="0,0" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+    <rect width="162" height="43" pos="0,10" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
       <rect name="buffs" pos="90,124" side="left" pivot="BottomLeft" size="162,390" controller="ActiveBuffWindow">
       <!-- use the following line if stealth bar is not disabled (ex: not using my compass mod) -->
       <!-- <rect name="buffs" pos="90,171" side="left" pivot="BottomLeft" size="162,390" controller="ActiveBuffWindow"> -->
