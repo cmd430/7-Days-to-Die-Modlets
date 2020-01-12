@@ -1,17 +1,45 @@
 <configs>
   <!-- set ammo stacks for standard ammos -->
+  <set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammo9mmBulletHP']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammo9mmBulletAP']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammo44MagnumBulletBall']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammo44MagnumBulletHP']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammo44MagnumBulletAP']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammo762mmBulletHP']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammo762mmBulletAP']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoArrowIron']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoArrowSteelAP']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoArrowFlaming']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoArrowExploding']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber']/@value">500</set>
-  <set xpath="/items/item[@name='ammoDartSteel']/property[@name='Stacknumber']/@value">500</set>
-  <set xpath="/items/item[@name='ammo9mmBullet']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoCrossbowBoltSteelAP']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoCrossbowBoltFlaming']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoCrossbowBoltExploding']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='ammoDartIron']/property[@name='Stacknumber']/@value">500</set>
+
   <!-- set ammo stacks for rocket launcher -->
-  <set xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']/@value">50</set>
+  <set xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="/items/item[@name='ammoRocketFrag']/property[@name='Stacknumber']/@value">100</set>
+
   <!-- set ammo stacks for thrown items -->
   <set xpath="/items/item[@name='thrownAmmoPipeBomb']/property[@name='Stacknumber']/@value">100</set>
-  <set xpath="/items/item[@name='thrownDynamite']/property[@name='Stacknumber']/@value">100</set>
   <set xpath="/items/item[@name='thrownAmmoMolotovCocktail']/property[@name='Stacknumber']/@value">100</set>
   <set xpath="/items/item[@name='thrownAmmoFlare']/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="/items/item[@name='thrownDynamite']/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="/items/item[@name='thrownTimedCharge']/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="/items/item[@name='thrownGrenade']/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="/items/item[@name='thrownGrenadeContact']/property[@name='Stacknumber']/@value">100</set>
+
+  <!-- set ammo stacks for misc items -->
+  <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="/items/item[@name='ammoJunkTurret']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">1000</set>
 </configs>
