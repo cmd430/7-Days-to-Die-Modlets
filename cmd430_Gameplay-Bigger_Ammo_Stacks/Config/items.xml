@@ -39,7 +39,7 @@
   <set xpath="/items/item[@name='thrownGrenadeContact']/property[@name='Stacknumber']/@value">100</set>
 
   <!-- set ammo stacks for misc items -->
-  <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">10000</set>
   <set xpath="/items/item[@name='ammoJunkTurret']/property[@name='Stacknumber']/@value">1000</set>
   <set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">1000</set>
 </configs>
