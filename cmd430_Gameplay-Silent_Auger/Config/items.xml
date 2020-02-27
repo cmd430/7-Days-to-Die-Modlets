@@ -1,8 +1,8 @@
 <configs>
-  <remove xpath="/items/item[@name='meleeToolAuger']/property[@name='SoundIdle']"/>
-  <remove xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_start']"/>
-  <remove xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_repeat']"/>
-  <remove xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_end']"/>
-  <remove xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_empty']"/>
-  <remove xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_reload']"/>
+  <set xpath="/items/item[@name='meleeToolAuger']/property[@name='SoundIdle']/@value">false</set>
+  <set xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_start']/@value">false</set>
+  <set xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_repeat']/@value">false</set>
+  <set xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_end']/@value">false</set>
+  <set xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_empty']/@value">false</set>
+  <set xpath="/items/item[@name='meleeToolAuger']/property[@class='Action0']/property[@name='Sound_reload']/@value">false</set>
 </configs>
