@@ -1,11 +1,11 @@
 <configs>
   <remove xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud'][@side='right']/rect[@stat_type='Stealth']"/>
   <remove xpath="/windows/window[@name='windowCompass']/sprite[@sprite='']"/>
-  <append xpath="/windows/window[@name='windowCompass']/sprite[@style='compass.window.compass.background']">
-    <sprite depth="11" pos="190,0" width="1" color="[white]" type="sliced" />
+  <append xpath="/windows/window[@name='windowCompass']">
+    <sprite depth="11" pos="240,0" width="1" color="[white]" type="sliced" />
   </append>
   <append xpath="/windows/window[@name='windowCompass']">
-    <sprite style="compass.window.compass.background" width="460" height="24" pos="10,-47" />
+    <sprite color="150,150,150,0" width="460" height="24" pos="10,-47" />
     <grid width="480" height="22" pos="0,-48" rows="1" cols="6" cell_width="80" cell_height="22">
       <rect>
         <sprite depth="2" name="Icon" sprite="ui_game_symbol_hot" size="22,22" pos="10, 0" color="[iconColor]" />
@@ -15,9 +15,9 @@
         <sprite depth="2" name="Icon" sprite="ui_game_symbol_clock" size="22,22" color="[iconColor]" />
         <label depth="2" name="TextContent" pos="50, -10" font_size="22" color="[beige]" justify="center" pivot="center" text="{time}" height="30" effect="outline"/>
       </rect>
-      <rect controller="PlayerStatsWindow">
+      <rect controller="MapStats">
         <sprite depth="2" name="Icon" sprite="ui_game_symbol_temperature" size="22,22" color="[iconColor]" />
-        <label depth="2" name="TextContent" pos="50, -10" font_size="22" color="[beige]" justify="center" pivot="center" text="{playercoretemp}" height="30" effect="outline"/>
+        <label depth="2" name="TextContent" pos="50, -10" font_size="22" color="[beige]" justify="center" pivot="center" text="{playercoretemp}" height="30" effect="Outline8"/>
       </rect>
       <rect controller="MapStats">
         <sprite depth="2" name="Icon" sprite="ui_game_symbol_climb" size="22,22" color="[iconColor]" />
