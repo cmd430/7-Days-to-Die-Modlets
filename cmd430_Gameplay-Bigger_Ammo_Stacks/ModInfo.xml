@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-  <ModInfo>
-    <Name value="cmd430_Gameplay-Bigger_Ammo_Stacks" />
-    <Description value="increase stack size for gun ammo to 500, and rocket ammo to 100" />
-    <Author value="cmd430" />
-    <Version value="1.0" />
-    <Website value="" />
-  </ModInfo>
+  <Name value="cmd430_Gameplay-Bigger_Ammo_Stacks" />
+  <DisplayName value="Bigger Ammo Stacks" />
+  <Version value="1.0.0.0" />
+  <Description value="increase stack size for gun ammo to 500, and rocket ammo to 100" />
+  <Author value="cmd430" />
+  <Website value="" />
 </xml>
